@@ -6,5 +6,10 @@ void setup(){
 }
 
 void draw(){
+  fill(pick());
   ellipse(random(1000), random(1000), 10, 10);
+}
+
+color pick(){
+  return color (random(255),random(255),random(255));
 }
